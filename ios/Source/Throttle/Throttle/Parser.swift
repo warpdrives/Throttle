@@ -21,6 +21,20 @@
 
 import Foundation
 
+/// DSL 解析器
 struct Parser {}
 
-/// - Todo: DSL 解析器
+/// DSL定义
+private struct DSL {}
+
+/// 布局方式
+private struct LayoutStyle {}
+
+/// 视图属性
+private struct ViewStyle {}
+
+/// 交互属性
+private struct ViewAction {}
+
+/// 视图状态条件
+private struct Condition {}
