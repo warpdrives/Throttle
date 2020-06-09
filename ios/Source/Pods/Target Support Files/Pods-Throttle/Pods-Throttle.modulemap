@@ -1,0 +1,6 @@
+framework module Pods_Throttle {
+  umbrella header "Pods-Throttle-umbrella.h"
+
+  export *
+  module * { export * }
+}

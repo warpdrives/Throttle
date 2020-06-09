@@ -1,0 +1,9 @@
+install! 'cocoapods', :disable_input_output_paths => true # 解决 Xcode10 之后由编译系统造成的，修改本地pod后不clean无法生效的问题
+
+use_frameworks!
+target ‘Throttle’ do
+    platform:ios,’9.0’
+    inhibit_all_warnings!
+    # Layout
+    pod 'Yoga', '~> 1.14.0'
+end

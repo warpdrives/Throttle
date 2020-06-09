@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376119E7C001864077112B8E /* Pods_Throttle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCE43CE718EB25DC5C88C97 /* Pods_Throttle.framework */; };
 		77A879C8248E4A0500CB9FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879C7248E4A0500CB9FC6 /* AppDelegate.swift */; };
 		77A879CA248E4A0500CB9FC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879C9248E4A0500CB9FC6 /* SceneDelegate.swift */; };
 		77A879CC248E4A0500CB9FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879CB248E4A0500CB9FC6 /* ViewController.swift */; };
@@ -55,6 +56,9 @@
 		77A87A06248E502C00CB9FC6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		77A87A08248E50AF00CB9FC6 /* RenderAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderAssignment.swift; sourceTree = "<group>"; };
 		77A87A0C248F29A800CB9FC6 /* DataBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBinding.swift; sourceTree = "<group>"; };
+		8BCE43CE718EB25DC5C88C97 /* Pods_Throttle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Throttle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB878C0FE1BF508D211E61B /* Pods-Throttle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Throttle.release.xcconfig"; path = "Target Support Files/Pods-Throttle/Pods-Throttle.release.xcconfig"; sourceTree = "<group>"; };
+		D378B72F401AD39B8824D82F /* Pods-Throttle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Throttle.debug.xcconfig"; path = "Target Support Files/Pods-Throttle/Pods-Throttle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376119E7C001864077112B8E /* Pods_Throttle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +94,8 @@
 				77A879DD248E4A0700CB9FC6 /* ThrottleTests */,
 				77A879E8248E4A0700CB9FC6 /* ThrottleUITests */,
 				77A879C5248E4A0500CB9FC6 /* Products */,
+				AAB4DE4EF7624890E25E29B6 /* Pods */,
+				F50188DD3D2BE49497188888 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +152,24 @@
 			path = Throttle;
 			sourceTree = "<group>";
 		};
+		AAB4DE4EF7624890E25E29B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D378B72F401AD39B8824D82F /* Pods-Throttle.debug.xcconfig */,
+				CDB878C0FE1BF508D211E61B /* Pods-Throttle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F50188DD3D2BE49497188888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE43CE718EB25DC5C88C97 /* Pods_Throttle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77A879EE248E4A0700CB9FC6 /* Build configuration list for PBXNativeTarget "Throttle" */;
 			buildPhases = (
+				7ECC75374B1DDB30FDE6D1C3 /* [CP] Check Pods Manifest.lock */,
 				77A879C0248E4A0500CB9FC6 /* Sources */,
 				77A879C1248E4A0500CB9FC6 /* Frameworks */,
 				77A879C2248E4A0500CB9FC6 /* Resources */,
+				4BB5B330DD53329CD09AB627 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BB5B330DD53329CD09AB627 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Throttle/Pods-Throttle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECC75374B1DDB30FDE6D1C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Throttle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77A879C0248E4A0500CB9FC6 /* Sources */ = {
@@ -452,10 +519,12 @@
 		};
 		77A879EF248E4A0700CB9FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D378B72F401AD39B8824D82F /* Pods-Throttle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Throttle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,10 +538,12 @@
 		};
 		77A879F0248E4A0700CB9FC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB878C0FE1BF508D211E61B /* Pods-Throttle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Throttle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

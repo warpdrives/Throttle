@@ -27,39 +27,39 @@ public struct Parser {
 }
 
 /// DSL定义
-private struct DSL {
-    fileprivate var layoutStyle: LayoutStyle?
-    fileprivate var viewStyle: ViewStyle?
-    fileprivate var viewAction: ViewAction?
-    fileprivate var condition: Condition?
+struct DSL {
+    var layoutStyle: LayoutStyle?
+    var viewStyle: ViewStyle?
+    var viewAction: ViewAction?
+    var condition: Condition?
 }
 
 /// 布局方式
-private struct LayoutStyle {
-    fileprivate enum style {
+struct LayoutStyle {
+    enum style {
         case frame
         case flexbox
     }
 }
 
 /// 视图属性
-private struct ViewStyle {
-    fileprivate var type: AnyClass?
-    fileprivate var backgroundColor: UIColor = .white
-    fileprivate var alpha: CGFloat = 1.0
-    fileprivate var cornerRadius: CGFloat = 0.0
-    fileprivate var borderColor: UIColor?
-    fileprivate var borderWidth: CGFloat = 0.0
-    fileprivate var frame: CGRect = .zero
+struct ViewStyle {
+    var type: AnyClass?
+    var backgroundColor: UIColor = .white
+    var alpha: CGFloat = 1.0
+    var cornerRadius: CGFloat = 0.0
+    var borderColor: UIColor?
+    var borderWidth: CGFloat = 0.0
+    var frame: CGRect = .zero
 }
 
 /// 交互属性
-private struct ViewAction {
-    fileprivate var action: Selector?
+struct ViewAction {
+    var action: Selector?
 }
 
 /// 视图状态条件
-private struct Condition {
-    fileprivate var parentView: AnyObject?
-    fileprivate var subView: AnyObject?
+struct Condition {
+    var parentView: AnyObject?
+    var subView: AnyObject?
 }
