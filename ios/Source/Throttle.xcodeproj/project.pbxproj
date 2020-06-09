@@ -17,6 +17,8 @@
 		77A879EA248E4A0700CB9FC6 /* ThrottleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879E9248E4A0700CB9FC6 /* ThrottleUITests.swift */; };
 		77A87A07248E502C00CB9FC6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A87A06248E502C00CB9FC6 /* Parser.swift */; };
 		77A87A09248E50AF00CB9FC6 /* RenderAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A87A08248E50AF00CB9FC6 /* RenderAssignment.swift */; };
+		77A87A0B248F292100CB9FC6 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A87A0A248F292100CB9FC6 /* DSL.swift */; };
+		77A87A0D248F29A800CB9FC6 /* DataBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A87A0C248F29A800CB9FC6 /* DataBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		77A879EB248E4A0700CB9FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77A87A06248E502C00CB9FC6 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		77A87A08248E50AF00CB9FC6 /* RenderAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderAssignment.swift; sourceTree = "<group>"; };
+		77A87A0A248F292100CB9FC6 /* DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSL.swift; sourceTree = "<group>"; };
+		77A87A0C248F29A800CB9FC6 /* DataBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 			children = (
 				77A87A06248E502C00CB9FC6 /* Parser.swift */,
 				77A87A08248E50AF00CB9FC6 /* RenderAssignment.swift */,
+				77A87A0A248F292100CB9FC6 /* DSL.swift */,
+				77A87A0C248F29A800CB9FC6 /* DataBinding.swift */,
 			);
 			path = Throttle;
 			sourceTree = "<group>";
@@ -275,7 +281,9 @@
 			files = (
 				77A87A09248E50AF00CB9FC6 /* RenderAssignment.swift in Sources */,
 				77A87A07248E502C00CB9FC6 /* Parser.swift in Sources */,
+				77A87A0D248F29A800CB9FC6 /* DataBinding.swift in Sources */,
 				77A879CC248E4A0500CB9FC6 /* ViewController.swift in Sources */,
+				77A87A0B248F292100CB9FC6 /* DSL.swift in Sources */,
 				77A879C8248E4A0500CB9FC6 /* AppDelegate.swift in Sources */,
 				77A879CA248E4A0500CB9FC6 /* SceneDelegate.swift in Sources */,
 			);
