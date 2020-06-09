@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		376119E7C001864077112B8E /* Pods_Throttle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCE43CE718EB25DC5C88C97 /* Pods_Throttle.framework */; };
 		77A879C8248E4A0500CB9FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879C7248E4A0500CB9FC6 /* AppDelegate.swift */; };
-		77A879CA248E4A0500CB9FC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879C9248E4A0500CB9FC6 /* SceneDelegate.swift */; };
 		77A879CC248E4A0500CB9FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A879CB248E4A0500CB9FC6 /* ViewController.swift */; };
 		77A879CF248E4A0500CB9FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A879CD248E4A0500CB9FC6 /* Main.storyboard */; };
 		77A879D1248E4A0600CB9FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A879D0248E4A0600CB9FC6 /* Assets.xcassets */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		77A879C4248E4A0500CB9FC6 /* Throttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Throttle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A879C7248E4A0500CB9FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77A879C9248E4A0500CB9FC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		77A879CB248E4A0500CB9FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77A879CE248E4A0500CB9FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77A879D0248E4A0600CB9FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			children = (
 				77A87A05248E502100CB9FC6 /* Throttle */,
 				77A879C7248E4A0500CB9FC6 /* AppDelegate.swift */,
-				77A879C9248E4A0500CB9FC6 /* SceneDelegate.swift */,
 				77A879CB248E4A0500CB9FC6 /* ViewController.swift */,
 				77A879CD248E4A0500CB9FC6 /* Main.storyboard */,
 				77A879D0248E4A0600CB9FC6 /* Assets.xcassets */,
@@ -158,7 +155,6 @@
 				D378B72F401AD39B8824D82F /* Pods-Throttle.debug.xcconfig */,
 				CDB878C0FE1BF508D211E61B /* Pods-Throttle.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -348,7 +344,6 @@
 				77A87A0D248F29A800CB9FC6 /* DataBinding.swift in Sources */,
 				77A879CC248E4A0500CB9FC6 /* ViewController.swift in Sources */,
 				77A879C8248E4A0500CB9FC6 /* AppDelegate.swift in Sources */,
-				77A879CA248E4A0500CB9FC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
